@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Web Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 
@@ -100,6 +101,19 @@
         <p>HTML stands for Hyper Text Markup Language. It is the main language for building websites. HTML is a simple structure for describing webpages. It offers tags that describes webpages like Heading, Paragraph, Lists, Tables and many others. One line of HTML code could define a whole webpage. Most websites are built with HTML and we use it without ever knowing. We mostly use HTML coded websites like Facebook and Twitter. It is a markup language used to define the structure of the content of a web page. The main source of information on HTML is the HTML 4.01 specification published by the W3C.</p>
     </ui>
 
+    <footer>
+        <ul class="social-icons">
+            <li><a href="https://web.facebook.com/prayangshubh"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/prayangshubh"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/prayangshubh/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <div class="copyright">
+            &copy; Copyright © 2023 Prayangshu Biswas
+        </div>
+    </footer>
+
+
+
 </body>
 </html>
 
@@ -158,5 +172,41 @@
 
     li {
         margin: 10px 0;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 14px; /* Adjust the font size */
+    }
+
+    /* Social media icons */
+    .social-icons {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .social-icons a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+        color: #007bff;
+    }
+
+    /* Copyright text */
+    .copyright {
+        margin-top: 5px; /* Adjust the margin */
     }
 </style>
