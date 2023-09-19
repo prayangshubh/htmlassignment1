@@ -85,10 +85,10 @@
 
 
 <h2>Learn Web Design</h2>
-<iframe src="https://www.youtube.com/embed/C72WkcUZvco" title="Web Tutorials" width="800" height="600" class="webtutor"></iframe>
+<iframe src="https://www.youtube.com/embed/C72WkcUZvco" title="Web Tutorials" width="1280" height="720" class="webtutor"></iframe>
 
 <h2>Open PDF File- Introduction To Web Design</h2>
-<p><a href="/assets/web.pdf">Open</a>.</p>
+<p><center><a href="/assets/web.pdf">Open</a><center></p>
 
 <h2>Features of HTML</h2>
 <img src="assets/fea.webp" width="800" height="600" class="fea">
@@ -104,21 +104,59 @@
 </html>
 
 
-
-
-
 <style>
-    .webtutor {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
     }
 
-    .fea {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    h1, h2, h3 {
+        text-align: center;
+        color: #333;
+    }
+
+    h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #666;
+        margin: 10px 0;
+    }
+
+    table {
         width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #333;
+        color: #fff;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    iframe.webtutor, img.fea {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+    }
+
+    li {
+        margin: 10px 0;
     }
 </style>
